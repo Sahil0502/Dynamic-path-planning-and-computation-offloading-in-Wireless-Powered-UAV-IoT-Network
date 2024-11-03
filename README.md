@@ -75,7 +75,7 @@ Follow these steps to set up the project on your local machine.
 To prevent dependency conflicts, it’s best to create a virtual environment.
 - **Create a virtual environment:**
    ```bash
-    Copy code
+    
     python3 -m venv venv
 
 - **Activate the virtual environment:**
