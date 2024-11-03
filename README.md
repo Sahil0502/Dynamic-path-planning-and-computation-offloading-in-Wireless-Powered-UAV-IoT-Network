@@ -46,20 +46,20 @@ Run the main script to execute all simulations sequentially.
 
 **Individual Module Details**
 
--**Dynamic Path Planning:**
--Implements Dijkstra's Algorithm to find the shortest path between nodes.
--Output: Path and total distance.
--Visualization: Graph highlighting the shortest path.
+- **Dynamic Path Planning:**
+- Implements Dijkstra's Algorithm to find the shortest path between nodes.
+- Output: Path and total distance.
+- Visualization: Graph highlighting the shortest path.
 
--**Computation Offloading:**
--Simulates offloading of tasks based on energy thresholds.
--Output: Energy levels and offloading points.
--Visualization: Graph showing energy depletion and offloading events.
+- **Computation Offloading:**
+- Simulates offloading of tasks based on energy thresholds.
+- Output: Energy levels and offloading points.
+- Visualization: Graph showing energy depletion and offloading events.
 
--**Wireless Power Transfer (WPT):**
--Models power transfer efficiency over distance.
--Output: Transferred power levels.
--Visualization: Graph showing power efficiency across distances.
+- **Wireless Power Transfer (WPT):**
+- Models power transfer efficiency over distance.
+- Output: Transferred power levels.
+- Visualization: Graph showing power efficiency across distances.
 
 
 # 🤝 Acknowledgments
