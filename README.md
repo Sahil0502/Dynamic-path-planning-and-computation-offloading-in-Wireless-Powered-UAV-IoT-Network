@@ -66,35 +66,29 @@ Run the main script to execute all simulations sequentially.
 Follow these steps to set up the project on your local machine.
 
 **Step 1: Clone the repository**
-    ```bash
-        
+
         git clone https://github.com/yourusername/UAV-IoT-Research-Project.git
         cd UAV-IoT-Research-Project
    
 **Step 2: Set Up a Virtual Environment (Optional but Recommended)**
 To prevent dependency conflicts, it’s best to create a virtual environment.
 - **Create a virtual environment:**
-   ```bash
-    
-    python3 -m venv venv
+  
+        python3 -m venv venv
 
 - **Activate the virtual environment:**
-- On Windows:
-    ```bash
-    Copy code
-    .\venv\Scripts\activate
+  On Windows:
 
-- On macOS/Linux:
-    ```bash
-    Copy code
-    source venv/bin/activate
+        .\venv\Scripts\activate
+
+  On macOS/Linux:
+  
+        source venv/bin/activate
 
 **Step 3: Install Required Libraries**
 
 Install the dependencies listed in requirements.txt.
 
-    ```bash
-    Copy code
     pip install -r requirements.txt
     
 Dependencies include:
@@ -105,8 +99,6 @@ Dependencies include:
 **Step 4: Verify the Installation**
 Run the main script to verify that everything is set up correctly.
 
-    ```bash
-    Copy code
     python main.py
 This command will initialize each module, generate example visualizations, and display any errors if dependencies or configurations are incorrect.
 
