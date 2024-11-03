@@ -46,7 +46,7 @@ Run the main script to execute all simulations sequentially.
 
 **Individual Module Details**
 
-- **1.Dynamic Path Planning:**
+**1.Dynamic Path Planning:**
 - Implements Dijkstra's Algorithm to find the shortest path between nodes.
 - Output: Path and total distance.
 - Visualization: Graph highlighting the shortest path.
