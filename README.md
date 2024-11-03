@@ -38,29 +38,28 @@ UAV-IoT-Research-Project/
     ├── wpt_simulation.py             # Wireless power transfer simulation
     └── wpt_visualization.py          # Visualization of power transfer efficiency
 
-
+```
 ---
 
-### `USAGE.md`
-
-```markdown
 # ⚙️ Usage
+Run the main script to execute all simulations sequentially.
 
-This section provides details on running the main script as well as the individual modules. Each module generates data and visualizations to simulate UAV IoT network operations.
+**Individual Module Details**
 
----
+--**Dynamic Path Planning:**
+--Implements Dijkstra's Algorithm to find the shortest path between nodes.
+--Output: Path and total distance.
+--Visualization: Graph highlighting the shortest path.
 
-## Running the Main Script
+--**Computation Offloading:**
+--Simulates offloading of tasks based on energy thresholds.
+--Output: Energy levels and offloading points.
+--Visualization: Graph showing energy depletion and offloading events.
 
-Execute the `main.py` file to run all modules sequentially. This script coordinates the following:
-- **Path Planning** using Dijkstra's Algorithm.
-- **Computation Offloading** based on energy thresholds.
-- **Wireless Power Transfer (WPT)** simulation with power efficiency visualizations.
-
-Run the following command:
-
-```bash
-python main.py
+--**Wireless Power Transfer (WPT):**
+--Models power transfer efficiency over distance.
+--Output: Transferred power levels.
+--Visualization: Graph showing power efficiency across distances.
 
 
 # 🤝 Acknowledgments
