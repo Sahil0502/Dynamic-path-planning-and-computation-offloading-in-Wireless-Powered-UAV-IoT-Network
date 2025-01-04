@@ -67,7 +67,7 @@ Follow these steps to set up the project on your local machine.
 
 **Step 1: Clone the repository**
 
-        git clone https://github.com/yourusername/UAV-IoT-Research-Project.git
+        git clone https://github.com/Sahil0502/Dynamic-path-planning-and-computation-offloading-in-Wireless-Powered-UAV-IoT-Network.git
         cd UAV-IoT-Research-Project
    
 **Step 2: Set Up a Virtual Environment (Optional but Recommended)**
